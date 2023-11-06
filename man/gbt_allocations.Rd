@@ -3,7 +3,7 @@
 \docType{data}
 \name{gbt_allocations}
 \alias{gbt_allocations}
-\title{Description of variables in gbt_allocations dataset.}
+\title{Description of variables in `gbt_allocations` dataset.}
 \format{
 A tibble with 2278 rows and 17 variables:
 \describe{

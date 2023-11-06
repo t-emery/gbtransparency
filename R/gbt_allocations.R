@@ -1,4 +1,4 @@
-#' Description of variables in gbt_allocations dataset.
+#' Description of variables in `gbt_allocations` dataset.
 #'
 #' A data dictionary for the `gbt_allocations`
 #'
