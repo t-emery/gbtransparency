@@ -1,0 +1,23 @@
+Package: gbtransparency
+Type: Package
+Title: An R Package for Green Bond Datasets
+Version: 0.1.0
+Authors@R: c(
+    person("Teal", "Emery", , "ltemery@gmail.com", role = c("aut")),
+    person("Reuben", "Opondo", , "oporeuben@gmail.com", role = "cre")
+  )
+Description: `gbtransparency` is an R package for working with Green Bond Datasets. 
+    There are five (5) datasets namely;  
+    (1) bond's general information, 
+    (2) allocation of proceeds to project categories using international standards (GBP, CBI),
+    (3) measurements of impact and outcome KPIs,
+    (4) individual bond-tranche information and 
+    (5) detailed information of the projects receiving disbursements. 
+    `gbtransparency` therefore, provides an easy way for R users to load the datasets and 
+    helper functions to ease common analysis workflows.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)

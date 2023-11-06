@@ -1,0 +1,78 @@
+data,ref_no,name,full_name,description
+Bonds,1.01,link,Bond link,Unique link to the bond data in the Green Bond Transparency Platform website.
+Bonds,1.02,handle,Link handle,Unique code of the bond registrered in the Green Bond Transparency Platform showed in the bond link.
+Bonds,1.03,ISIN,ISIN code,International Securities Identification Number (ISIN) uniquely identifies a security.
+Bonds,1.04,CUSIP,CUSIP code,A CUSIP number is a unique identification number assigned to stocks and registered bonds in the United States and Canada.
+Bonds,1.05,FIGI,FIGI code,The FIGI code a is global identification based on Bloomberg’s Open Symbology.
+Bonds,1.06,ticker,Ticker code,A stock symbol is an arrangement of characters—usually letters—representing publicly-traded securities on an exchange
+Bonds,1.07,name,Bond name,Name of the bond in the platform created by the issuer.
+Bonds,1.08,issuer_name,Issuer name,Name of the issuer reporting for the use of proceeds and KPIs of the bond
+Bonds,1.09,issuer_type,Issuer type,"Type of issuer from the categories: Development bank, Financial corporate, Non-financial corporate, Local Government, Sovereign."
+Bonds,1.1,issuer_jurisdiction,Issuer jurisdiction,Country of the SPV issuer reporting.
+Bonds,1.11,fund,Fund structure,"Indicates if one of the entries has a ""fund-structure"". ""f"" means that the entry does not have a fund strucuture and is not used as a base for a group of bonds reporting allocations and KPIs at the program level. ""t"" means that the entry has a fund-structure."
+Bonds,1.12,issuance_date,Issuance date,mm/dd/yyyy when the bond was issued.
+Bonds,1.13,maturity_date,Maturity date,mm/dd/yyyy when the bond matures. Moment in time when the principal of a bond must be repaid to an investor.
+Bonds,1.14,volume_usd,Volume issued in USD,USD equivalent of the face value issued.
+Bonds,1.15,volume_bond_currency,Volume issued in bond currency,Amount issued in denominated currency.
+Bonds,1.16,bond_currency,Bond currency,The denominated currency of the bond.
+Allocations,2.01,bond_handle,Link handle,Unique code of the bond registrered in the Green Bond Transparency Platform showed in the bond link.
+Allocations,2.02,bond_name,Bond name,Name of the bond in the paltform created by the issuer.
+Allocations,2.03,nomenclature,Standard for project category,"Standard/taxonomy: used to define project categories: Climate Bonds Initiative Project Classification, ICMA Green Bonds Principles Project Categories, EU Taxonomy Green Bonds, ISO Standard."
+Allocations,2.04,category,Project category,Project category under the especified project category standard.
+Allocations,2.05,subcategory,Project sub-category,Project sub-category under the especified project category standard.
+Allocations,2.06,project,Project name,Project name.
+Allocations,2.07,location,Project location,Location of the project.
+Allocations,2.08,latitude,Latitude,Latitude in plane coordinates.
+Allocations,2.09,longitude,Longitude,Longitude in plane coordinates.
+Allocations,2.1,date_allocation,Allocation date,mm/dd/yyyy when the proceeds were allocated/ assigned to the project.
+Allocations,2.11,date_disbursement,Disbursement date,mm/dd/yyyy when the proceeds were disbursed to the project.
+Allocations,2.12,allocation_currency,Allocation currency,The currency used to allocate the proceeds of the bond to the project.
+Allocations,2.13,allocated_allocation_currency,Allocated amount in allocation currency,Allocated amount to the project reported in allocation currency.
+Allocations,2.14,disbursed_allocation_currency,Disbursed amount in allocation currency,Disbursed amount to the project reported in allocation currency.
+Allocations,2.15,bond_currency,Bond currency,The denominated currency of the bond.
+Allocations,2.16,disbursed_bond_currency,Disbursed amount in bond currency,Disbursed amount to the project reported in bond currency.
+Allocations,2.17,disbursed_usd,Disbursed amount in USD,USD equivalent of the disbursed amount.
+Allocations,2.18,refinancing,Refinancing,Indicated if a project was or not refinanced.
+Allocations,2.19,cofinancing_percentage,Co-finance percentage,Share of the total value of the project that was co-finance using the bond proceeds.
+Key Performance Indicators,3.01,bond_handle,Link handle,Unique code of the bond registrered in the Green Bond Transparency Platform showed in the bond link.
+Key Performance Indicators,3.02,bond_name,Bond name,Name of the bond in the paltform created by the issuer.
+Key Performance Indicators,3.03,nomenclature,Standard for project category,"Standard/taxonomy: used to define project categories: Climate Bonds Initiative Project Classification, ICMA Green Bonds Principles Project Categories, EU Taxonomy Green Bonds, ISO Standard."
+Key Performance Indicators,3.04,category,Project category,Project category under the especified project category standard.
+Key Performance Indicators,3.05,subcategory,Project sub-category,Project sub-category under the especified project category standard.
+Key Performance Indicators,3.06,project,Project name,Project name.
+Key Performance Indicators,3.07,location,Project location,Location of the project.
+Key Performance Indicators,3.08,latitude,Latitude,Latitude in plane coordinates.
+Key Performance Indicators,3.09,longitude,Longitude,Longitude in plane coordinates.
+Key Performance Indicators,3.1,indicator,Indicator,Name of the key performance indicator.
+Key Performance Indicators,3.11,unit,KPI unit,International measure unit for the KPI.
+Key Performance Indicators,3.12,planned_value,Planned value,Estimated KPI value for the project pre-project execution.
+Key Performance Indicators,3.13,measured_value,Measured value,Real KPI value for the project post-project execution.
+Key Performance Indicators,3.14,can_be_aggregated,KPI aggregated,Indicates if its possible to aggregate a KPI.
+Key Performance Indicators,3.15,methodology_code,Methodology code,Specific code for a given methodology used to measure the KPI.
+Key Performance Indicators,3.16,measurement_period_start,KPI measurement starting period,mm/dd/yyyy when ends the mesuring KPI period.
+Key Performance Indicators,3.17,measurement_period_end,KPI measurement ending period,mm/dd/yyyy when starts the mesuring KPI period.
+Tranches,4.01,bond_handle,Link handle,Unique code of the bond registrered in the Green Bond Transparency Platform showed in the bond link.
+Tranches,4.02,bond_name,Bond name,Name of the bond in the paltform created by the issuer.
+Tranches,4.03,market,Issuance market,Issance market: National or International.
+Tranches,4.04,stock_exchange,Stock exchange,Bond's listing stock exchange.
+Tranches,4.05,tranche_currency,Tranche currency,The denominated currency of the tranche.
+Tranches,4.06,volume_offered_tranche_currency,Volume offered in tranche currency,Tranche's offered amount in tranche currency.
+Tranches,4.07,volume_raised_tranche_currency,Volume raised in tranche currency,Tranche's raised amount in tranche currency.
+Tranches,4.08,bond_currency,Bond currency,The denominated currency of the bond.
+Tranches,4.09,volume_raised_bond_currency,Volume raised in bond currency,Raised amount in bond's issuance in bond currency.
+Tranches,4.1,volume_raised_usd,Volume raised in USD,USD equivalent of the volume raised.
+Projects,5.01,bond_handle,Link handle,Unique code of the bond registered in the Green Bond Transparency Platform showed in the bond link.
+Projects,5.02,bond_name,Bond name,Name of the bond in the platform created by the issuer.
+Projects,5.03,nomenclature,Standard for project category,"Standard/taxonomy: used to define project categories: Climate Bonds Initiative Project Classification, ICMA Green Bonds Principles Project Categories, EU Taxonomy Green Bonds, ISO Standard."
+Projects,5.04,category,Project category,Project category under the specified project category standard.
+Projects,5.05,subcategory,Project sub-category,Project sub-category under the specified project category standard.
+Projects,5.06,project,Project name,Project name.
+Projects,5.07,parent_project_handle,Parent project link handle,NA
+Projects,5.08,location,Project location,Location of the project.
+Projects,5.09,latitude,Latitude,Latitude in plane coordinates.
+Projects,5.1,longitude,Longitude,Longitude in plane coordinates.
+Projects,5.11,host_organization,Name of the host organization,Name of the organization that receives the proceeds to finance the project.
+Projects,5.12,refinancing,Refinancing,Indicated if a project was or not refinanced.
+Projects,5.13,cofinancing_percentage,Co-finance percentage,Share of the total value of the project that was co-finance using the bond proceeds.
+Projects,5.14,represented_projects,Number of represented projects,Number of projects represented by one project and reported by the issuer.
+Projects,5.15,description,Description,"Description of the use of proceeds, location, operation and period of the project."
