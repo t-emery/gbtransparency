@@ -3,7 +3,7 @@
 \docType{data}
 \name{gbt_bonds}
 \alias{gbt_bonds}
-\title{Description of variables in `gbt_bonds` dataset.}
+\title{Green Bond Transparency Platform - Data by Bond}
 \format{
 A tibble with 177 rows and 17 variables:
 \describe{
@@ -27,12 +27,15 @@ A tibble with 177 rows and 17 variables:
 }
 }
 \source{
-\url{https://gbtp-logs.s3.amazonaws.com/dumps/bonds.csv}
+\href{https://www.greenbondtransparency.com/support/resources/}{Green Bond Transparency Platform} \href{https://gbtp-logs.s3.amazonaws.com/dumps/bonds.csv}{Dataset download}
 }
 \usage{
 gbt_bonds
 }
 \description{
-A data dictionary for the `gbt_bonds`
+This is a static export of the Green Bond Transparency Platform bond dataset, which contains general information about each bond. More information about the Green Bond Transparency Platform can be found at \url{https://www.greenbondtransparency.com/support/resources/}.
+}
+\seealso{
+\code{\link{gbt_data_dictionary}}
 }
 \keyword{datasets}
